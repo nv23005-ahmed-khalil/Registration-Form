@@ -87,15 +87,14 @@ a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #1b1b31; /* Corrected background color */
+    background-color: #1b1b31;
     padding: 10px;
-    text-align: left;
     z-index: 100;
-    border-top: 1px solid; /* Border is now in the correct place */
+    border-top: 1px solid;
 }
 
 .my-footer p {
     margin: 0;
     font-size: small;
-}
+    text-align: left;
 
