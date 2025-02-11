@@ -80,3 +80,17 @@ input[type="file"] {
 a {
     color: #dfdfe2
 }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: left; /* Left-align the text */
+}
+
+footer p {
+  margin: 0;
+  font-size: small;
+}
