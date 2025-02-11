@@ -80,17 +80,25 @@ input[type="file"] {
 a {
     color: #dfdfe2
 }
-.footer {
+.my-footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #f0f0f0;
   padding: 10px;
-  text-align: left; /* Left-align the text */
+  text-align: left;
+  z-index: 100;
 }
 
-.footer p {
+.my-footer p {
   margin: 0;
   font-size: small;
+}
+.my-footer {
+  border-top: 1px solid #ccc;
+}
+
+.my-footer:hover {
+  background-color: #e0e0e0;
 }
