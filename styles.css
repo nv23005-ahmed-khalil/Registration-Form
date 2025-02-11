@@ -80,7 +80,7 @@ input[type="file"] {
 a {
     color: #dfdfe2
 }
-footer {
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -90,7 +90,7 @@ footer {
   text-align: left; /* Left-align the text */
 }
 
-footer p {
+.footer p {
   margin: 0;
   font-size: small;
 }
