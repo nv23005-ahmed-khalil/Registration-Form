@@ -96,6 +96,6 @@ a {
   font-size: small;
 }
 .my-footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid;
 }
 
